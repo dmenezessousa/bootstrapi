@@ -17,8 +17,11 @@
         <h1>
             Part 1: Random Dog Generator
         </h1>
-        <div class="api-content">
-            [INSERT RANDOM DOG GENERATOR HERE]
+        <div class="api-content" style="width: 18rem;">
+            <img src=" " class="card-img-top">
+            <div>
+                <button type="button" class="btn btn-primary" >RANDOM DOG GENERATOR </button>
+            </div>
         </div>
     </div>
 
@@ -27,10 +30,21 @@
             Part 2: Weather App
         </h1>
         <div class="api-content">
-            [INSERT WEATHER APP HERE]
+            <form>
+                <fieldset>
+                <legend>Search for the weather in your City.</legend>
+                <div class="mb-3">
+                    <input type="text" id="disabledTextInput" class="form-control" placeholder="Enter City Name">
+                </div>
+                <button type="submit" id="submitButton" class="btn btn-primary">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+        <div class="city-weather">
+            <p class="paraCity"></p>
         </div>
     </div>
-
+    
     <script src="main.js"></script>
 </body>
 </html>
